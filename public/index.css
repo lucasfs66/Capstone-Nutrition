@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #06283D;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.middle-Images {
+    margin: 10px 10px;
+}
+
+.Images_middle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+;
+}
+
+
+.Images_middle img{
+    max-width: 40vw;
+    max-height: 40vh;
+}
+
