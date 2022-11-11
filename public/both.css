@@ -1,0 +1,11 @@
+
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #06283D;
+    display: flex;
+    justify-content: space-between;
+
+}

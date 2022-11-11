@@ -1,0 +1,29 @@
+.images-diplay {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.image-page {
+    margin: 0 1vw;
+}
+
+.image-page img {
+    max-width: 47vw; 
+    max-height: 200px;
+    border-radius: 12px;
+}
+
+.left {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

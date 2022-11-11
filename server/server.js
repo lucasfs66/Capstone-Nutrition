@@ -7,11 +7,13 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const {home} = require('./pageCntrl')
+const {home, getRecipe} = require('./pageCntrl')
 
 
 
-app.get('/', home)
+app.get('/', home);
+
+app.get('/recipe', getRecipe);
 
 app.use(express.static('public'));
 

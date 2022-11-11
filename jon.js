@@ -1,0 +1,1 @@
+let imageDiv = document.createElement(div)

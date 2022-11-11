@@ -1,13 +1,9 @@
-* {
-    margin: 0;
-}
 
-.header {
-    background-color: #06283D;
-    display: flex;
-    justify-content: space-between;
+/* body {
+    color: white;
+    background-color: black;
+} */
 
-}
 
 .middle-Images {
     margin: 10px 10px;
@@ -22,7 +18,11 @@
 
 
 .Images_middle img{
-    max-width: 40vw;
-    max-height: 40vh;
+    /* max-width: 40vw;
+    max-height: 40vh; */
+    max-width: 150px; 
+    max-height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
