@@ -1,7 +1,8 @@
-.images-diplay {
+.image-display {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
+    margin: 6vh 6vw;
 }
 
 .image-page {
