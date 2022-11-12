@@ -18,7 +18,7 @@ axios.get('/recipe')
 
 
 
-const getRecipes = (obj, x, count) => {
+const getRecipes = (obj, x) => {
     
     let imageDiv = document.createElement('div')
     imageDiv.classList.add('image-page')
