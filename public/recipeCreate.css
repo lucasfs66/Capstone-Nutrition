@@ -1,0 +1,14 @@
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 60vh;
+    margin: 10vh 15vw 20vh 15vw;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+
