@@ -32,5 +32,15 @@ module.exports = {
                 res.status(200).send(dbRes[0])
             })
             .catch(err => console.log('errado'))
+    },
+    getSpecRecipe: (req, res) => {
+        let id = req.body.id
+        sequelize.query(`
+            SELECT * FROM recipes WHERE id = ${id};
+        `)
+        .then((dbRes) => {
+            res.status(200).send(dbRes[0])
+        })
+        .catch(err => console.log('errado'))
     }
 }

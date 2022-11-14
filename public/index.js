@@ -24,7 +24,7 @@ const getRecipes = (obj, x) => {
     imageDiv.classList.add('image-page')
     
     imageDiv.innerHTML = `
-            <a href="recipePage.html"><img src="${obj[x].imgurl}" class="image"></a>
+            <a href="recipePage.html?id=${obj[x].id}"><img src="${obj[x].imgurl}" class="image"></a>
             <h3>${obj[x].recipename}</h3>
     `
     if(x % 2 !== 0) {
