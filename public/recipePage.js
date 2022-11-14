@@ -1,15 +1,13 @@
-const imagePlace = document.querySelector('.image-display')
+const body = document.querySelector('body')
 
 
-
-axios.get('/recipe')
+axios.post('/recipe', )
     .then((res) => {
         let objArr = res.data
         console.log(res.data)
-        let count = 1
-        for(let i = 0; i < objArr.length; i++){
+        
            getRecipes(objArr, i) 
-        }    
+            
         
             
             
@@ -24,7 +22,7 @@ const getRecipes = (obj, x) => {
     imageDiv.classList.add('image-page')
     
     imageDiv.innerHTML = `
-            <a href="recipePage.html"><img src="${obj[x].imgurl}" class="image"></a>
+            <img src="${obj[x].imgurl}" class="image">
             <h3>${obj[x].recipename}</h3>
     `
     if(x % 2 !== 0) {

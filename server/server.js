@@ -15,6 +15,8 @@ app.get('/', home);
 
 app.get('/recipe', getRecipe);
 
+app.post('/recipePage', )
+
 app.use(express.static('public'));
 
 
