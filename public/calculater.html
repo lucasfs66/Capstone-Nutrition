@@ -6,8 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculater</title>
     <link rel="stylesheet" href="./both.css">
+    <link rel="stylesheet" href="calculater.css">
 </head>
 <body>
-    
+    <header class="header">
+        <img src="./searchBar.png" alt="">
+        <a href="index.html"><h1>ZNutrition</h1></a>
+        <img src="./menu.png">
+    </header>
+    <main>
+        <form action="">
+            <h2>Calculater</h2>
+            <section>
+                <div class="form-calories">
+                    <label for="">Age(15-80):</label>
+                    <input placeholder="Age" id="age">
+                </div>
+                <div class="form-calories">
+                    <label for="">Gender:</label>
+                    <input type="radio" class="gender" id="male" name="Gender"> Male
+                    <input type="radio" class="gender" id="female" name="Gender">Female
+                </div>
+                <div class="form-calories">
+                    <label for="">Height(in cm):</label>
+                    <input placeholder="cm" id="height-cm">
+                </div>
+                <div class="form-calories">
+                    <label for="">Weight:</label>
+                    <input placeholder="pounds" id="weight">
+                </div>
+            </section>
+        
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        </form>
+    </main>
+    <footer>
+        <!-- <div class="footer">
+            <section class="maintain">
+                <h2>2000 lb per day</h2>
+                <p>maintain your weight</p>
+            </section>
+            <section class="loseOne">
+                <h2>1500 lb per day</h2>
+                <p>lose 1 pound per week</p>
+            </section>
+            <section class="loseTwo">
+                <h2>1000 lb per day</h2>
+                <p>lose 2 pound per week</p>
+            </section>
+        </div> -->
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./calculater.js"></script>
 </body>
 </html>

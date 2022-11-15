@@ -1,0 +1,43 @@
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 60vh;
+    margin: 10vh 15vw 20vh 15vw;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+section {
+    margin: 5vh 0;
+}
+
+#height-feet, #height-inch, #age{
+    width: 10vw;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.footer section{
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 4vh 10vw;
+    margin: 0;
+}
+
+.loseOne {
+    background-color: rgb(255, 161, 161);
+}
+
+.loseTwo {
+    background-color: red;
+}
