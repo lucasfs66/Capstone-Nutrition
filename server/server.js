@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const {home, getRecipe, getSpecRecipe} = require('./pageCntrl')
+const {home, getRecipe, getSpecRecipe, createRecipe} = require('./pageCntrl')
 
 
 
@@ -15,7 +15,9 @@ app.get('/', home);
 
 app.get('/recipe', getRecipe);
 
-app.post('/specrecipe', getSpecRecipe)
+app.post('/specrecipe', getSpecRecipe);
+
+app.post('/createrecipe', createRecipe)
 
 app.use(express.static('public'));
 

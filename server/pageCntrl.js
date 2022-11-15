@@ -42,5 +42,17 @@ module.exports = {
             res.status(200).send(dbRes[0])
         })
         .catch(err => console.log('errado'))
+    },
+    createRecipe: (req, res) => {
+        let {nameRecipe, ingr, inst, nut, url} = req.body
+        sequelize.query(`
+        INSERT INTO recipes(recipeName, recipeIngr, recipeText, nutritionTable, imgURL)
+        VALUES ('${nameRecipe}', '${ingr}', '${inst}', '${nut}', '${url}');
+        `)
+        .then((dbRes) => {
+            res.status(200).send(dbRes[0])
+        })
+        .catch(err => console.log('errado'))
     }
+
 }

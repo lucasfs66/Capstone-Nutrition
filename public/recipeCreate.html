@@ -13,20 +13,29 @@
         <h2>Share Your Recipe</h2>
         <div class="form-name">
             <label for="">Name:</label>
-            <input placeholder="Name here!">
+            <input placeholder="Name here!" id="name">
         </div>
         <div class="form-name">
             <label for="">Ingredients:</label>
-            <input placeholder="type here">
+            <input placeholder="type here" id="ingredients">
         </div>
         <div class="form-name">
             <label for="">Instructions:</label>
-            <input placeholder="type here">
+            <input placeholder="type here" id="instruction">
         </div>
         <div class="form-name">
             <label for="">Nutriction:</label>
-            <input placeholder="type here">
+            <input placeholder="type here" id="nutriction">
+        </div>
+        <div class="form-name">
+            <label for="">Image URL:</label>
+            <input placeholder="type here" id="url">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
         </div>
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./recipeCreate.js"></script>
 </body>
 </html>

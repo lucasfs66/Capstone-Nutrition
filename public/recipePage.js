@@ -30,7 +30,7 @@ const getRecipes = (obj) => {
     <a href="recipe.html"><img src="iconX.png" alt="X"></a>
     <header class="image-big">
         <img src="${obj[0].imgurl}" alt="recipe">
-        <h2>Name</h2>
+        <h2>${obj[0].recipename}</h2>
     </header>
     <main class="text">
         
