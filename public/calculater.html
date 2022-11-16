@@ -10,9 +10,16 @@
 </head>
 <body>
     <header class="header">
-        <img src="./searchBar.png" alt="">
-        <a href="index.html"><h1>ZNutrition</h1></a>
-        <img src="./menu.png">
+            <div class="dropdown">
+                <button class="dropbtn"><img src="./icons8-menu-rounded-30.png"></button>
+                <div class="dropdown-content">
+                <a href="./calculater.html">Calculater</a>
+                <a href="./recipe.html">Recipe</a>
+                </div>
+            </div>            
+            <a href="index.html"><h1>ZNutrition</h1></a>
+            <img src="./icons8-search-30.png" alt="">
+        
     </header>
     <main>
         <form action="">
@@ -38,7 +45,7 @@
             </section>
         
         <div>
-            <button type="submit">Submit</button>
+            <button type="submit" id="submit-btn">Submit</button>
         </div>
         </form>
     </main>

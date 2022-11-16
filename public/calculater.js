@@ -1,7 +1,7 @@
 const form = document.querySelector('form')
 const footer = document.querySelector('footer')
 
-const button = document.querySelector('button')
+const button = document.getElementById('submit-btn')
 
 const write = result =>{
     
@@ -61,7 +61,7 @@ const post = (event) => {
             console.log(err)
             console.log('Hello')
         })
-    alert('recipe created')
+
 
 }
 

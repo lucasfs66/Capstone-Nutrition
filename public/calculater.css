@@ -15,8 +15,8 @@ section {
     margin: 5vh 0;
 }
 
-#height-feet, #height-inch, #age{
-    width: 10vw;
+#weight, #height-cm, #age{
+    width: 11vw;
 }
 
 footer{
