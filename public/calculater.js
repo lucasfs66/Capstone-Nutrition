@@ -9,15 +9,15 @@ const write = result =>{
     footer.innerHTML = `
     <div class="footer">
             <section class="maintain">
-                <h2>${Math.floor(result)} lb per day</h2>
+                <h2>${Math.floor(result)} Calorie per day</h2>
                 <p>maintain your weight</p>
             </section>
             <section class="loseOne">
-                <h2>${Math.floor(result) - 500} lb per day</h2>
+                <h2>${Math.floor(result) - 500} Calorie per day</h2>
                 <p>lose 1 pound per week</p>
             </section>
             <section class="loseTwo">
-                <h2>${Math.floor(result) - 1000} lb per day</h2>
+                <h2>${Math.floor(result) - 1000} Calorie per day</h2>
                 <p>lose 2 pound per week</p>
             </section>
     </div>
